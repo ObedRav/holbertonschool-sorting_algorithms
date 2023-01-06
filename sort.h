@@ -26,5 +26,10 @@ void swap(int *xp, int *yp);
 void insertion_sort_list(listint_t **list);
 void swapList(listint_t *current, listint_t *tmp);
 void selection_sort(int *array, size_t size);
+void quick_sort(int *array, size_t size);
+void swaper(int *array, size_t size, int *first, int *second);
+int partition(int *array, size_t size, ssize_t low, ssize_t high);
+void sort_quick(int *array, size_t size, ssize_t low, ssize_t high);
+
 
 #endif
