@@ -3,7 +3,7 @@
 /**
  * swapList - function that swap 2 nodes
  * @current: current node
- * @tmp:
+ * @tmp: node
  */
 void swapList(listint_t *current, listint_t *tmp)
 {
@@ -11,7 +11,7 @@ void swapList(listint_t *current, listint_t *tmp)
 		current->prev->next = tmp;
 	if (tmp->next)
 		tmp->next->prev = current;
-	
+
 	current->next = tmp->next;
 	tmp->prev = current->prev;
 	current->prev = tmp;
@@ -19,7 +19,7 @@ void swapList(listint_t *current, listint_t *tmp)
 }
 
 /**
- * insertion_sort_list -
+ * insertion_sort_list - Entry
  * @list: the list
  */
 void insertion_sort_list(listint_t **list)
@@ -42,7 +42,7 @@ void insertion_sort_list(listint_t **list)
 				swapList(current->prev, current);
 				if (!current->prev)
 					*list = current;
-				
+
 				print_list((const listint_t *)*list);
 			}
 			else
