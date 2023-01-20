@@ -1,6 +1,6 @@
 # C - Sorting algorithms & Big O
 
-In this project, I implemented several different sorting algorithms.
+In this project, We implemented several different sorting algorithms.
 
 <p align="center">
  <img src= "https://s3.eu-west-3.amazonaws.com/hbtn.intranet.project.files/holbertonschool-low_level_programming/248/willy-wonka.png">
@@ -67,4 +67,65 @@ In this project, I implemented several different sorting algorithms.
 {Ace, C}, {2, C}, {3, C}, {4, C}, {5, C}, {6, C}, {7, C}, {8, C}, {9, C}, {10, C}, {Jack, C}, {Queen, C}, {King, C}
 {Ace, D}, {2, D}, {3, D}, {4, D}, {5, D}, {6, D}, {7, D}, {8, D}, {9, D}, {10, D}, {Jack, D}, {Queen, D}, {King, D}
 ```
+## Usage
 
+<details open>
+<summary> <strong> Compilation </strong> </summary>
+
+<br>
+
+To compile the program this command has to be executed:
+```
+gcc -Wall -Wextra -Werror -pedantic <main_file> <function_to_use> <print_algorithm> -o <name_executable>
+```
+You can run this file in your terminal with the next command:
+```
+$ ./<name_executable>
+```
+</details>
+
+<details open>
+<summary> <strong> Example </strong> </summary>
+
+<br>
+ 
+```
+alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic 1-main.c 1-insertion_sort_list.c print_list.c -o insertion
+alex@/tmp/sort$ ./insertion
+19, 48, 99, 71, 13, 52, 96, 73, 86, 7
+
+19, 48, 71, 99, 13, 52, 96, 73, 86, 7
+19, 48, 71, 13, 99, 52, 96, 73, 86, 7
+19, 48, 13, 71, 99, 52, 96, 73, 86, 7
+19, 13, 48, 71, 99, 52, 96, 73, 86, 7
+13, 19, 48, 71, 99, 52, 96, 73, 86, 7
+13, 19, 48, 71, 52, 99, 96, 73, 86, 7
+13, 19, 48, 52, 71, 99, 96, 73, 86, 7
+13, 19, 48, 52, 71, 96, 99, 73, 86, 7
+13, 19, 48, 52, 71, 96, 73, 99, 86, 7
+13, 19, 48, 52, 71, 73, 96, 99, 86, 7
+13, 19, 48, 52, 71, 73, 96, 86, 99, 7
+13, 19, 48, 52, 71, 73, 86, 96, 99, 7
+13, 19, 48, 52, 71, 73, 86, 96, 7, 99
+13, 19, 48, 52, 71, 73, 86, 7, 96, 99
+13, 19, 48, 52, 71, 73, 7, 86, 96, 99
+13, 19, 48, 52, 71, 7, 73, 86, 96, 99
+13, 19, 48, 52, 7, 71, 73, 86, 96, 99
+13, 19, 48, 7, 52, 71, 73, 86, 96, 99
+13, 19, 7, 48, 52, 71, 73, 86, 96, 99
+13, 7, 19, 48, 52, 71, 73, 86, 96, 99
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+alex@/tmp/sort$
+```
+
+## Bugs
+If you find any bug, please, let us know.
+
+## Styling
+All files have been written in the [Betty Style](https://github.com/hs-hq/Betty).
+
+## Authors
+* **Obed Rayo** <a href="https://github.com/ObedRav" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
+* **Camilo Zapata** <a href="https://github.com/ZapataCamilo" rel="nofollow"><img align="center" alt="github" src="https://www.vectorlogo.zone/logos/github/github-tile.svg" height="24" /></a>
