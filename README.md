@@ -119,6 +119,7 @@ alex@/tmp/sort$ ./insertion
 7, 13, 19, 48, 52, 71, 73, 86, 96, 99
 alex@/tmp/sort$
 ```
+</details>
 
 ## Bugs
 If you find any bug, please, let us know.
